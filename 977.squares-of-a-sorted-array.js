@@ -17,6 +17,7 @@ var sortedSquares = function(nums) {
       return 0;
     });
     return result_s;
+    
 };
 // @lc code=end
 
