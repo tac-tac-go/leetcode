@@ -7,3 +7,4 @@ class Solution:
                 if v>=target:
                     return i
             return len(nums)
+            
