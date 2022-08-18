@@ -4,7 +4,6 @@
 var NumArray = function(nums) {
     let y = 0;
     this.cumsum = nums.map(v => y+=v)
-    
 };
 
 /** 
