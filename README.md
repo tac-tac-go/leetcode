@@ -1,4 +1,5 @@
 # LeetCode
 
-leetcodeで提出したコードをまとめています
-使用言語は主にjavascriptです
+
+### Files submitted by LeetCode.
+##### Mainly Language : Python and Javascript and TypeScript
