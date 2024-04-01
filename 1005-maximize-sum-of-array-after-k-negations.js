@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-var largestSumAfterKNegations = function(nums, k) {
+let largestSumAfterKNegations = function(nums, k) {
     let nums_minus = nums.filter(v => v<0)
     let nums_plus = nums.filter(v => v>=0)
     nums_minus.sort((a,b) => a-b)
