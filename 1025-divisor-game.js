@@ -2,6 +2,6 @@
  * @param {number} n
  * @return {boolean}
  */
-var divisorGame = function(n) {
+let divisorGame = function(n) {
     return n%2==0 ? true : false
 };
