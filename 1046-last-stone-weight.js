@@ -2,7 +2,7 @@
  * @param {number[]} stones
  * @return {number}
  */
-var lastStoneWeight = function(stones) {
+let lastStoneWeight = function(stones) {
     stones.sort((a,b) => b-a)
     
     while(stones.length>1){

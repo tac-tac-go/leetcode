@@ -4,8 +4,8 @@
  * @param {string} second
  * @return {string[]}
  */
-var findOcurrences = function(text, first, second) {
-    var text_a = text.split(" ");
+let findOcurrences = function(text, first, second) {
+    let text_a = text.split(" ");
     let result = []
     for(let i=0;i<text_a.length-1;i++){
         if(text_a[i]==first && text_a[i+1]==second){
