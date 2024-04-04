@@ -3,7 +3,7 @@
  * @param {number} num_people
  * @return {number[]}
  */
-var distributeCandies = function(candies, num_people) {
+const distributeCandies = function(candies, num_people) {
     let index=0;
     let count=0;
     let result = new Array(num_people).fill(0)
