@@ -2,9 +2,9 @@
  * @param {number[]} arr
  * @return {void} Do not return anything, modify arr in-place instead.
  */
-var duplicateZeros = function(arr) {
-    var arr_s = [...arr]
-    var count=0
+const duplicateZeros = function(arr) {
+    let arr_s = [...arr]
+    let count=0
     for(const [index,elm] of arr_s.entries()){
         if(elm==0){
             arr.splice(index+count,0,0)
@@ -13,6 +13,6 @@ var duplicateZeros = function(arr) {
             break
         }
     }
-    var val = arr.splice(arr_s.length);
+    const val = arr.splice(arr_s.length);
     return val
 };
