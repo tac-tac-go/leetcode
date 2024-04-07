@@ -6,7 +6,7 @@
 const relativeSortArray = function(arr1, arr2) {
     let result = []
     for(let value of arr2){
-        var array = arr1.filter(v => v===value)
+        let array = arr1.filter(v => v===value)
         result = result.concat(array)
     }
     let rest = arr1.filter(v => result.indexOf(v)==-1)
