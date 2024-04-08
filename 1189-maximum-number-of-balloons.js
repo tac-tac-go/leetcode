@@ -2,12 +2,12 @@
  * @param {string} text
  * @return {number}
  */
-var maxNumberOfBalloons = function(text) {
-    var result1=new Array(3);//a,b,n
-    var result2=new Array(2);//l,o
+let maxNumberOfBalloons = function(text) {
+    let result1=new Array(3);//a,b,n
+    let result2=new Array(2);//l,o
     result1.fill(0);
     result2.fill(0);
-    var text_split = text.split("");
+    let text_split = text.split("");
     for(let i=0;i<text_split.length;i++){
         if(text_split[i]=="a"){
             result1[0]+=1

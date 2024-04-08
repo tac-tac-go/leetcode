@@ -4,7 +4,7 @@
  * @param {number} destination
  * @return {number}
  */
-var distanceBetweenBusStops = function(distance, start, destination) {
+let distanceBetweenBusStops = function(distance, start, destination) {
     let start1 = Math.min(start,destination)
     let destination1 = Math.max(start,destination)
     let anticlock = distance.concat(distance)
